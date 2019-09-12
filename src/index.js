@@ -7,6 +7,7 @@ import manageBand from './reducers/manageBand'
 
 const store = createStore(manageBand)
 
+// console.log(store,"store")
 
 ReactDOM.render(
   <Provider store={store}>
